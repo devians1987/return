@@ -3,12 +3,12 @@ public class Main {
 
 
         int account = 700;
-        int replenishment = 400;
-        int bonus;
+        int replenishment = 1300;
+        int bonus = 0;
 
 
-        if (account + replenishment > 1000) {
-            bonus = (account + replenishment) / 100;
+        if (replenishment > 1000) {
+            bonus = (replenishment) / 100;
         } else {
             bonus = 0;
         }
